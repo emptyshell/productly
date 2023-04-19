@@ -13,6 +13,7 @@ header {
     height: 78px;
     vertical-align: middle;
     padding-top: 23px;
+    margin-bottom: 30px;
 }
 
 #logo, nav {
@@ -38,7 +39,7 @@ nav {
     margin: auto 14px;
 }
 
-.reg-btn {
+.regular_btn {
     background-color: #fff;
     border: 1px solid #BCD0E5;
     border-radius: 4px;
@@ -49,26 +50,30 @@ nav {
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
+    padding: 11px 22px;
 
     color: #173A56;
 }
 
-.primary-btn {
+.primary_btn {
     background-color: #FF9900;
     border: 1px solid #BCD0E5;
     border-radius: 4px;
-    height: 46px;
-    
+   /*  height: 53px; */
+
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 16px;
     line-height: 24px;
 
     color: #fff;
+    border: none;
+
+    padding: 15px 41px;
 }
 
-.link-btn {
+.link_btn {
     background: none;
     border: none;
     font-family: 'Poppins';
@@ -91,8 +96,8 @@ nav {
     margin-left: 29px;
 }
 
-.play-btn {
-    content: url("/img/play-btn.svg");
+.header__play_btn {
+    content: url("../img/play-btn.svg");
     margin-right: 8px;
     vertical-align: middle;
 }
@@ -101,14 +106,22 @@ nav {
     margin-left: 30px;
 }
 
-.heading-text {
+.header__left_side {
+    width: 518px;
+    height: 331px;
+}
+
+.header__title {
+    margin: 0 0 30px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 44px;
     line-height: 54px;
-
     color: #2F281E;
+    width: 518px;
+    height: 108px;
+
 }
 
 /* .p::first-letter {
@@ -123,7 +136,10 @@ nav {
     color: #544837;
 } */
 
-.p {
+.header__description {
+    width: 458px;
+   /*  height: 95px; */
+    margin: 0 0 45px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -132,9 +148,23 @@ nav {
 
     color: #544837;
     letter-spacing: 2px;
+
+
 }
 
-.p::before {
+.header {
+    margin-bottom: 110px;
+}
+
+.header__left_side, .header__image {
+    display: inline-block;
+}
+
+.header__image {
+    width: 605px;
+}
+
+/* .p::before {
     content: '"';
     font-family: 'Poppins';
     font-style: italic;
@@ -143,9 +173,9 @@ nav {
     line-height: 48px;
     vertical-align: bottom;
 
-}
+} */
 
-.p::after {
+/* .p::after {
     content: '"';
     font-family: 'Poppins';
     font-style: italic;
@@ -154,4 +184,4 @@ nav {
     line-height: 48px;
     vertical-align: bottom;
 
-}
+} */
